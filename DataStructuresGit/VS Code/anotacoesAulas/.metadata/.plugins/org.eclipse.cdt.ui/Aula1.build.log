@@ -1,0 +1,9 @@
+11:06:41 **** Incremental Build of configuration Debug for project Aula1 ****
+Info: Internal Builder is used for build
+gcc -o Aula1.exe factorial.o 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: factorial.o: in function `main':
+C:\Users\Matheus\Documents\BSI - IFES\Terceiro Periodo\Estrutura de Dados\Aula1\Debug/../factorial.c:16: undefined reference to `fatorial'
+collect2.exe: error: ld returned 1 exit status
+
+11:06:42 Build Failed. 2 errors, 0 warnings. (took 362ms)
+

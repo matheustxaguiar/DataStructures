@@ -1,0 +1,183 @@
+12:42:21 **** Incremental Build of configuration Debug for project 03Pedro ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tarefa03.o "..\\tarefa03.c" 
+..\tarefa03.c: In function 'main':
+..\tarefa03.c:19:9: warning: unused variable 'line' [-Wunused-variable]
+   19 |     int line;
+      |         ^~~~
+gcc -o 03Pedro.exe tarefa03.o 
+12:42:51 **** Incremental Build of configuration Debug for project 03Pedro ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tarefa03.o "..\\tarefa03.c" 
+..\tarefa03.c: In function 'main':
+..\tarefa03.c:19:10: error: conflicting types for 'intlinha'
+   19 |     char intlinha;
+      |          ^~~~~~~~
+..\tarefa03.c:8:10: note: previous declaration of 'intlinha' was here
+    8 |     char intlinha[1024];
+      |          ^~~~~~~~
+..\tarefa03.c:33:15: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   33 |         fgets(intlinha, 1024, arq);
+      |               ^~~~~~~~
+      |               |
+      |               char
+In file included from ..\tarefa03.c:1:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:647:43: note: expected 'char * restrict' but argument is of type 'char'
+  647 |   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~
+..\tarefa03.c:39:19: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   39 |             fgets(intlinha,1024,arq);
+      |                   ^~~~~~~~
+      |                   |
+      |                   char
+In file included from ..\tarefa03.c:1:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:647:43: note: expected 'char * restrict' but argument is of type 'char'
+  647 |   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~
+..\tarefa03.c:40:39: error: subscripted value is neither array nor pointer nor vector
+   40 |             if(strcmp(strtok(&intlinha[pos1],","),&vet_dezenas[i])==0){
+      |                                       ^
+..\tarefa03.c:45:36: error: subscripted value is neither array nor pointer nor vector
+   45 |             pos2 = strlen(&intlinha[pos1]);
+      |                                    ^
+..\tarefa03.c:46:40: error: subscripted value is neither array nor pointer nor vector
+   46 |             if (strcmp(strtok(&intlinha[pos2],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:51:36: error: subscripted value is neither array nor pointer nor vector
+   51 |             pos3 = strlen(&intlinha[pos2]);
+      |                                    ^
+..\tarefa03.c:52:40: error: subscripted value is neither array nor pointer nor vector
+   52 |             if (strcmp(strtok(&intlinha[pos3],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:57:36: error: subscripted value is neither array nor pointer nor vector
+   57 |             pos3 = strlen(&intlinha[pos2]);
+      |                                    ^
+..\tarefa03.c:58:40: error: subscripted value is neither array nor pointer nor vector
+   58 |             if (strcmp(strtok(&intlinha[pos3],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:63:36: error: subscripted value is neither array nor pointer nor vector
+   63 |             pos4 = strlen(&intlinha[pos3]);
+      |                                    ^
+..\tarefa03.c:64:40: error: subscripted value is neither array nor pointer nor vector
+   64 |             if (strcmp(strtok(&intlinha[pos4],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:69:36: error: subscripted value is neither array nor pointer nor vector
+   69 |             pos5 = strlen(&intlinha[pos4]);
+      |                                    ^
+..\tarefa03.c:70:40: error: subscripted value is neither array nor pointer nor vector
+   70 |             if (strcmp(strtok(&intlinha[pos5],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:75:36: error: subscripted value is neither array nor pointer nor vector
+   75 |             pos6 = strlen(&intlinha[pos5]);
+      |                                    ^
+..\tarefa03.c:76:40: error: subscripted value is neither array nor pointer nor vector
+   76 |             if (strcmp(strtok(&intlinha[pos6],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:36:47: warning: variable 'pos6' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                               ^~~~
+..\tarefa03.c:36:41: warning: variable 'pos5' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                         ^~~~
+..\tarefa03.c:36:35: warning: variable 'pos4' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                   ^~~~
+..\tarefa03.c:36:29: warning: variable 'pos3' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                             ^~~~
+..\tarefa03.c:36:23: warning: variable 'pos2' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                       ^~~~
+..\tarefa03.c:36:17: warning: variable 'pos1' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                 ^~~~
+12:43:20 **** Incremental Build of configuration Debug for project 03Pedro ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tarefa03.o "..\\tarefa03.c" 
+..\tarefa03.c: In function 'main':
+..\tarefa03.c:19:9: error: conflicting types for 'intlinha'
+   19 |     int intlinha;
+      |         ^~~~~~~~
+..\tarefa03.c:8:10: note: previous declaration of 'intlinha' was here
+    8 |     char intlinha[1024];
+      |          ^~~~~~~~
+..\tarefa03.c:33:15: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   33 |         fgets(intlinha, 1024, arq);
+      |               ^~~~~~~~
+      |               |
+      |               int
+In file included from ..\tarefa03.c:1:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:647:43: note: expected 'char * restrict' but argument is of type 'int'
+  647 |   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~
+..\tarefa03.c:39:19: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   39 |             fgets(intlinha,1024,arq);
+      |                   ^~~~~~~~
+      |                   |
+      |                   int
+In file included from ..\tarefa03.c:1:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:647:43: note: expected 'char * restrict' but argument is of type 'int'
+  647 |   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~
+..\tarefa03.c:40:39: error: subscripted value is neither array nor pointer nor vector
+   40 |             if(strcmp(strtok(&intlinha[pos1],","),&vet_dezenas[i])==0){
+      |                                       ^
+..\tarefa03.c:45:36: error: subscripted value is neither array nor pointer nor vector
+   45 |             pos2 = strlen(&intlinha[pos1]);
+      |                                    ^
+..\tarefa03.c:46:40: error: subscripted value is neither array nor pointer nor vector
+   46 |             if (strcmp(strtok(&intlinha[pos2],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:51:36: error: subscripted value is neither array nor pointer nor vector
+   51 |             pos3 = strlen(&intlinha[pos2]);
+      |                                    ^
+..\tarefa03.c:52:40: error: subscripted value is neither array nor pointer nor vector
+   52 |             if (strcmp(strtok(&intlinha[pos3],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:57:36: error: subscripted value is neither array nor pointer nor vector
+   57 |             pos3 = strlen(&intlinha[pos2]);
+      |                                    ^
+..\tarefa03.c:58:40: error: subscripted value is neither array nor pointer nor vector
+   58 |             if (strcmp(strtok(&intlinha[pos3],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:63:36: error: subscripted value is neither array nor pointer nor vector
+   63 |             pos4 = strlen(&intlinha[pos3]);
+      |                                    ^
+..\tarefa03.c:64:40: error: subscripted value is neither array nor pointer nor vector
+   64 |             if (strcmp(strtok(&intlinha[pos4],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:69:36: error: subscripted value is neither array nor pointer nor vector
+   69 |             pos5 = strlen(&intlinha[pos4]);
+      |                                    ^
+..\tarefa03.c:70:40: error: subscripted value is neither array nor pointer nor vector
+   70 |             if (strcmp(strtok(&intlinha[pos5],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:75:36: error: subscripted value is neither array nor pointer nor vector
+   75 |             pos6 = strlen(&intlinha[pos5]);
+      |                                    ^
+..\tarefa03.c:76:40: error: subscripted value is neither array nor pointer nor vector
+   76 |             if (strcmp(strtok(&intlinha[pos6],","),&vet_dezenas[i])==0){
+      |                                        ^
+..\tarefa03.c:36:47: warning: variable 'pos6' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                               ^~~~
+..\tarefa03.c:36:41: warning: variable 'pos5' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                         ^~~~
+..\tarefa03.c:36:35: warning: variable 'pos4' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                                   ^~~~
+..\tarefa03.c:36:29: warning: variable 'pos3' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                             ^~~~
+..\tarefa03.c:36:23: warning: variable 'pos2' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                       ^~~~
+..\tarefa03.c:36:17: warning: variable 'pos1' set but not used [-Wunused-but-set-variable]
+   36 |             int pos1, pos2, pos3, pos4, pos5, pos6;
+      |                 ^~~~
+12:43:30 **** Incremental Build of configuration Debug for project 03Pedro ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tarefa03.o "..\\tarefa03.c" 
+gcc -o 03Pedro.exe tarefa03.o 
+Info: Nothing to build for 03Pedro

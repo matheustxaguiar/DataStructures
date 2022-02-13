@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:arquivos02.exe,org.eclipse.launchbar.core.descriptorType.default\:arquivosAula1.exe,org.eclipse.launchbar.core.descriptorType.default\:Aula1.exe,org.eclipse.launchbar.core.descriptorType.default\:exercicioArquivos.exe,org.eclipse.launchbar.core.descriptorType.default\:vetorAVA.exe,org.eclipse.launchbar.core.descriptorType.default\:vetorcomInput.exe,org.eclipse.launchbar.core.descriptorType.default\:vetorEx01.exe,org.eclipse.launchbar.core.descriptorType.default\:vetorEx02.exe,org.eclipse.launchbar.core.descriptorType.default\:vetor_aula2.exe,org.eclipse.launchbar.core.descriptorType.default\:videoArquivo01.exe,org.eclipse.launchbar.core.descriptorType.default\:videoArquivo02.exe,org.eclipse.launchbar.core.descriptorType.default\:videoArquivo03.exe,org.eclipse.launchbar.core.descriptorType.default\:aulaPonteiros01.exe,org.eclipse.launchbar.core.descriptorType.default\:aulaPonteiros02.exe,org.eclipse.launchbar.core.descriptorType.default\:mallocExercicio01.exe,org.eclipse.launchbar.core.descriptorType.default\:exercicio01ED.exe,org.eclipse.launchbar.core.descriptorType.default\:01Pedro.exe,org.eclipse.launchbar.core.descriptorType.default\:02Pedro.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Aula1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Aula1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:arquivos02.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:arquivos02.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:vetorAVA.exe/activeLaunchMode=run

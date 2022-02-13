@@ -1,0 +1,1 @@
+tiposponteiros.o: ../tiposponteiros.c

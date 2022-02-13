@@ -1,0 +1,8 @@
+15:43:55 **** Incremental Build of configuration Debug for project videoArquivo03 ****
+Info: Internal Builder is used for build
+gcc -o videoArquivo03.exe gravandoArquivo.o 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file videoArquivo03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+15:43:55 Build Failed. 1 errors, 0 warnings. (took 315ms)
+

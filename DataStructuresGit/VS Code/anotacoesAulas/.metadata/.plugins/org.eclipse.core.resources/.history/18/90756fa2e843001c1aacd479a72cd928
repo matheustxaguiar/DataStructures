@@ -1,0 +1,31 @@
+/*
+ * mallocExercise.c
+ *
+ *  Created on: 11 de nov. de 2021
+ *      Author: Matheus
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+
+int main (){
+	FILE *arq;
+	int x;
+	int y;
+
+	arq = fopen("coordenas.txt", "r");
+
+	if (arq == NULL){
+		printf("Error, não foi possivel abrir o arquivo.");
+	}
+	else{
+		while ((fscanf(arq, "%d %d\n", &x, &y)) != EOF){
+			printf("x: %d  e  y: %d \n", x, y);
+		}
+	}
+
+	fclose(arq);
+
+	return 0;
+}

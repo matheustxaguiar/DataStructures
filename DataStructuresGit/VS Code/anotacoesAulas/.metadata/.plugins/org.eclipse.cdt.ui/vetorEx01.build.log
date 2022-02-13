@@ -1,0 +1,10 @@
+11:06:43 **** Incremental Build of configuration Debug for project vetorEx01 ****
+Info: Internal Builder is used for build
+gcc -o vetorEx01.exe vetex01.o 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: vetex01.o: in function `main':
+C:\Users\Matheus\Documents\BSI - IFES\Terceiro Periodo\Estrutura de Dados\vetorEx01\Debug/../vetex01.c:41: undefined reference to `prinf'
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\Matheus\Documents\BSI - IFES\Terceiro Periodo\Estrutura de Dados\vetorEx01\Debug/../vetex01.c:45: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+
+11:06:43 Build Failed. 3 errors, 0 warnings. (took 361ms)
+
